@@ -1,0 +1,44 @@
+{
+  "invoiceNumber": "INV-2024-003",
+  "clientName": "Sarah Williams",
+  "eventDetails": {
+    "type": "Corporate Magic Show",
+    "childName": "Williams & Associates",
+    "dateTime": {
+      "start": "2024-12-20 6:00 PM",
+      "end": "2024-12-20 8:00 PM"
+    },
+    "venue": {
+      "name": "Williams & Associates Office",
+      "address": {
+        "line1": "789 Business Plaza",
+        "line2": "Suite 200",
+        "city": "Springfield",
+        "state": "IL",
+        "zipCode": "62703"
+      }
+    },
+    "details": "Professional close-up magic performance for corporate holiday party. Sophisticated entertainment for adult audience."
+  },
+  "lineItems": [
+    {
+      "description": "2-Hour Corporate Magic Performance",
+      "quantity": 1,
+      "price": 500.00
+    },
+    {
+      "description": "Sound System Rental",
+      "quantity": 1,
+      "price": 75.00
+    }
+  ],
+  "subtotal": 575.00,
+  "tax": 46.00,
+  "totalAmount": 621.00,
+  "memo": "Professional corporate entertainment package. Includes close-up magic, stage performance, and audience interaction. Perfect for holiday celebrations!",
+  "paymentTerms": {
+    "depositDue": "December 10, 2024",
+    "balanceDue": "Day of Event",
+    "minimumDeposit": 50
+  }
+}
