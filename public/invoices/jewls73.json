@@ -1,0 +1,28 @@
+{
+  "invoice_number": "2025-001",
+  "recipient": "Julia Fasel",
+  "event_type": "Magic Birthday Party",
+  "event_date": "2025-07-12",
+  "address": {
+    "line_1": "123 Sparkle Avenue",
+    "line_2": "Suite 2B"
+  },
+  "line_items": [
+    {
+      "item": "45-Minute Magic Show",
+      "qty": 1,
+      "price": 200,
+      "total": 200
+    },
+    {
+      "item": "Balloon Twisting Add-on",
+      "qty": 1,
+      "price": 50,
+      "total": 50
+    }
+  ],
+  "total_due": 250,
+  "deposit_paid": 100,
+  "balance_due": 150,
+  "payment_link": "https://checkout.stripe.com/pay/mock-payment-link"
+}
