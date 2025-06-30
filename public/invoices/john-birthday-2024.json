@@ -1,0 +1,50 @@
+{
+  "invoiceNumber": "INV-2024-002",
+  "clientName": "John Smith",
+  "eventDetails": {
+    "type": "Magic Workshop",
+    "childName": "Michael Smith",
+    "dateTime": {
+      "start": "2024-11-20 10:00 AM",
+      "end": "2024-11-20 12:00 PM"
+    },
+    "venue": {
+      "name": "Springfield Community Center",
+      "address": {
+        "line1": "456 Main Street",
+        "city": "Springfield",
+        "state": "IL",
+        "zipCode": "62702"
+      }
+    },
+    "details": "Educational magic workshop teaching basic tricks and presentation skills for teenagers."
+  },
+  "lineItems": [
+    {
+      "description": "2-Hour Magic Workshop",
+      "quantity": 1,
+      "price": 300.00
+    },
+    {
+      "description": "Magic Kit for Each Participant",
+      "quantity": 12,
+      "price": 25.00
+    }
+  ],
+  "subtotal": 600.00,
+  "totalAmount": 600.00,
+  "paymentHistory": [
+    {
+      "date": "2024-11-21",
+      "type": "Full Payment",
+      "amount": 600.00,
+      "transactionId": "txn_0987654321"
+    }
+  ],
+  "memo": "Workshop completed successfully! Thank you for the wonderful event. All participants received their magic kits and certificates of completion.",
+  "paymentTerms": {
+    "depositDue": "November 10, 2024",
+    "balanceDue": "Day of Event",
+    "minimumDeposit": 50
+  }
+}

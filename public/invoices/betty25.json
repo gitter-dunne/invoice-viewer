@@ -1,0 +1,57 @@
+{
+  "invoiceNumber": "INV-2024-001",
+  "clientName": "Betty Johnson",
+  "eventDetails": {
+    "type": "Birthday Party Magic Show",
+    "childName": "Emma Johnson",
+    "dateTime": {
+      "start": "2024-12-15 2:00 PM",
+      "end": "2024-12-15 4:00 PM"
+    },
+    "venue": {
+      "name": "Johnson Family Home",
+      "address": {
+        "line1": "123 Oak Street",
+        "line2": "Apt 4B",
+        "city": "Springfield",
+        "state": "IL",
+        "zipCode": "62701"
+      }
+    },
+    "details": "2-hour birthday party magic show for ages 5-10. Includes balloon animals, magic tricks, and interactive games."
+  },
+  "lineItems": [
+    {
+      "description": "2-Hour Birthday Magic Show",
+      "quantity": 1,
+      "price": 250.00
+    },
+    {
+      "description": "Balloon Animal Add-on",
+      "quantity": 1,
+      "price": 50.00
+    },
+    {
+      "description": "Party Favor Magic Kit (per child)",
+      "quantity": 8,
+      "price": 12.00
+    }
+  ],
+  "subtotal": 396.00,
+  "tax": 31.68,
+  "totalAmount": 427.68,
+  "paymentHistory": [
+    {
+      "date": "2024-11-15",
+      "type": "Deposit",
+      "amount": 213.84,
+      "transactionId": "txn_1234567890"
+    }
+  ],
+  "memo": "Thank you for choosing our magical entertainment! We look forward to making Emma's birthday extra special. Please ensure adequate space for performance (8x8 feet minimum).",
+  "paymentTerms": {
+    "depositDue": "December 1, 2024",
+    "balanceDue": "Day of Event",
+    "minimumDeposit": 50
+  }
+}

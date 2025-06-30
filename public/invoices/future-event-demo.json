@@ -1,0 +1,54 @@
+{
+  "invoiceNumber": "INV-2024-004",
+  "clientName": "Jennifer Martinez",
+  "eventDetails": {
+    "type": "Children's Birthday Magic Show",
+    "childName": "Sofia Martinez",
+    "dateTime": {
+      "start": "2025-03-15 3:00 PM",
+      "end": "2025-03-15 5:00 PM"
+    },
+    "venue": {
+      "name": "Martinez Family Home",
+      "address": {
+        "line1": "567 Maple Avenue",
+        "line2": "",
+        "city": "Springfield",
+        "state": "IL",
+        "zipCode": "62704"
+      }
+    },
+    "details": "2-hour interactive magic show for Sofia's 8th birthday party. Includes audience participation, balloon animals, and a special birthday surprise for the birthday girl."
+  },
+  "lineItems": [
+    {
+      "description": "2-Hour Birthday Magic Show",
+      "quantity": 1,
+      "price": 275.00
+    },
+    {
+      "description": "Premium Balloon Animal Package",
+      "quantity": 1,
+      "price": 75.00
+    },
+    {
+      "description": "Birthday Girl Special Magic Kit",
+      "quantity": 1,
+      "price": 35.00
+    },
+    {
+      "description": "Party Favor Magic Tricks (per child)",
+      "quantity": 10,
+      "price": 8.00
+    }
+  ],
+  "subtotal": 465.00,
+  "tax": 37.20,
+  "totalAmount": 502.20,
+  "memo": "Thank you for booking our magical entertainment for Sofia's special day! We're excited to make her 8th birthday unforgettable. A 50% deposit secures your date, with the balance due on the day of the event.",
+  "paymentTerms": {
+    "depositDue": "March 1, 2025",
+    "balanceDue": "Day of Event",
+    "minimumDeposit": 50
+  }
+}

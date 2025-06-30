@@ -1,0 +1,59 @@
+{
+  "invoiceNumber": "INV-2025-001",
+  "clientName": "Rutie Tootie",
+  "eventDetails": {
+    "type": "Birthday Party Magic Show",
+    "childName": "Lefty",
+    "dateTime": {
+      "start": "2025-08-03 2:00 PM",
+      "end": "2025-08-03 4:00 PM"
+    },
+    "venue": {
+      "name": "Tootie Family Home",
+      "address": {
+        "line1": "789 Rainbow Street",
+        "line2": "",
+        "city": "Springfield",
+        "state": "IL",
+        "zipCode": "62705"
+      }
+    },
+    "details": "2-hour magical birthday celebration for Lefty! Featuring interactive magic tricks, balloon animals, and special left-handed magic demonstrations perfect for our birthday star."
+  },
+  "lineItems": [
+    {
+      "description": "2-Hour Birthday Magic Show",
+      "quantity": 1,
+      "price": 285.00
+    },
+    {
+      "description": "Left-Handed Magic Tricks Demonstration",
+      "quantity": 1,
+      "price": 45.00
+    },
+    {
+      "description": "Balloon Animal Extravaganza",
+      "quantity": 1,
+      "price": 65.00
+    },
+    {
+      "description": "Special Birthday Magic Kit for Lefty",
+      "quantity": 1,
+      "price": 40.00
+    },
+    {
+      "description": "Party Favor Magic Tricks (per child)",
+      "quantity": 12,
+      "price": 10.00
+    }
+  ],
+  "subtotal": 550.00,
+  "tax": 44.00,
+  "totalAmount": 594.00,
+  "memo": "We're thrilled to celebrate Lefty's special day with magical entertainment! Our show includes special left-handed magic tricks that Lefty will love. Thank you for choosing us, Rutie Tootie!",
+  "paymentTerms": {
+    "depositDue": "July 20, 2025",
+    "balanceDue": "Day of Event",
+    "minimumDeposit": 50
+  }
+}
